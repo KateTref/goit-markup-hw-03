@@ -19,9 +19,9 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <div class="container">
-        <nav>
+    <header class="head">
+      <div class="container header-container">
+        <nav class="nav">
           <a class="link logo" href="./index.html">
             <p lang="en"><span class="first-word">Web</span>Studio</p>
           </a>
@@ -31,15 +31,17 @@
             <li class="list-item"><a class="link" href="">Контакты</a></li>
           </ul>
         </nav>
-        <a class="link contacts-head" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a class="link contacts-head" href="tel:+380961111111">+38 096 111 11 11</a>
+        <div class="contacts">
+          <a class="link contacts-head" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="link contacts-head" href="tel:+380961111111">+38 096 111 11 11</a>
+        </div>
       </div>
     </header>
 
     <main>
-      <section class="hero section">
-        <div class="container">
-          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+      <section class="hero">
+        <div class="container hero-flex">
+          <h1 class="hero-title">Эффективные решения<br />для вашего бизнеса</h1>
           <button class="hero-btn" type="button">Заказать услугу</button>
         </div>
       </section>
