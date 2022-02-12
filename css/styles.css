@@ -35,8 +35,8 @@ img {
 }
 .container {
   width: 1200px;
-  padding-left: 15;
-  padding-right: 15;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -154,7 +154,7 @@ img {
 .item-flex {
   margin-left: 30px;
   margin-top: 30px;
-  flex-basis: calc((100%-120px) / 4);
+  flex-basis: calc((100% - 120px) / 4);
 }
 .principles-title {
   font-size: 14px;
@@ -179,6 +179,11 @@ img {
   color: var(--primary-text-color);
   margin-bottom: 50px;
 }
+.card-work {
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc((100% - 90px) / 3);
+}
 .team-name {
   font-weight: 500;
   color: var(--primary-text-color);
@@ -189,6 +194,11 @@ img {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+}
+.card-team {
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc((100% - 120px) / 4);
 }
 .footer {
   background-color: var(--back-color);
@@ -223,12 +233,27 @@ img {
   border-radius: 4px;
   padding: 6px 22px;
 }
+.list-btn:not(:last-child) {
+  margin-right: 8px;
+}
 .nav-btn:hover,
 .nav-btn:focus {
   background-color: var(--accent-color);
   color: var(--white-color);
 }
-.name-job {
+.list-menu {
+  display: flex;
+  justify-content: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 42px;
+}
+.item-card {
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc((100% - 90px) / 3);
+}
+.list .name-job {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
