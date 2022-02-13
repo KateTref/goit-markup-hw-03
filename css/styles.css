@@ -45,8 +45,6 @@ img {
   padding-bottom: 94px;
 }
 .head {
-  padding-top: 32px;
-  padding-bottom: 32px;
   border: 1px solid var(--line-color);
 }
 .header-container {
@@ -63,6 +61,10 @@ img {
 }
 .list-item {
   list-style: none;
+}
+.list-item > .link {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .list-nav > .list-item:not(:last-child) {
   margin-right: 50px;
@@ -102,7 +104,10 @@ img {
   color: var(--accent-color);
 }
 .contacts-head {
+  display: inline-block;
   color: var(--secondary-text-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .contacts {
   margin-left: auto;
