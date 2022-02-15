@@ -45,7 +45,9 @@ img {
   padding-bottom: 94px;
 }
 .head {
-  border: 1px solid var(--line-color);
+  border-bottom: 1px solid var(--line-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .header-container {
   display: flex;
@@ -62,10 +64,10 @@ img {
 .list-item {
   list-style: none;
 }
-.list-item > .link {
+/* .list-item > .link {
   padding-top: 32px;
   padding-bottom: 32px;
-}
+} */
 .list-nav > .list-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -171,11 +173,15 @@ img {
   text-align: left;
   color: var(--dark-color);
   margin-bottom: 10px;
+  text-transform: uppercase;
 }
 .principles-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+.subject {
+  padding-top: 0px;
 }
 .subject-title,
 .team-title {
@@ -191,6 +197,9 @@ img {
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc((100% - 90px) / 3);
+}
+.team {
+  background-color: var(--btn-nav-color);
 }
 .team-name {
   font-weight: 500;
@@ -224,6 +233,8 @@ img {
 .logo-footer {
   display: inline-block;
   color: var(--white-color);
+  margin-right: 0px;
+  margin-bottom: 20px;
 }
 .address-text {
   font-style: normal;
@@ -232,8 +243,12 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--white-color);
-  margin-top: 20px;
 }
+.map,
+.mail {
+  margin-bottom: 9px;
+}
+
 .link-contacts:hover,
 .link-contacts:focus {
   color: var(--accent-color);
